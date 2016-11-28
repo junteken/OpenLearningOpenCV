@@ -22,7 +22,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="color.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="OpenLearningOpenCV.py" />
+    <Compile Include="p28.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="p50.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
